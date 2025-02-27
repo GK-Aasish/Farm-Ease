@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    background-color: aquamarine;
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+}
+
+.navigations {
+    background-color: aliceblue;
+    display: flex;
+    width: 20%;
+}
+
+.primary_navigations {
+    background: #f8f9fa; /* Light background */
+    padding: 10px 0;
+    text-align: center;
+    width: 20%;
+}
+
+.main_nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+    padding: 0;
+    margin: 0;
+}
+
+.main_nav li {
+    display: inline;
+}
+
+.main_nav .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px; /* Adjust icon size */
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.main_nav li .nav-link i:hover {
+    color: #007bff; /* Change icon color on hover */
+}
+
+.secondary_navigations {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.secondary_navigations img {
+    width: 100%;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.sub_nav {
+    width: 100%;
+}
+
+.container {
+    background-color: aliceblue;
+    position: relative;
+    left: 5%;
+    width: 75%;
+    padding: 10px;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.search {
+    width: 65%;
+    text-align: center;
+}
+
+.user {
+    width: 34%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.user_nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px; /* Space between icons */
+    padding: 0;
+    margin: 0;
+}
+
+.user_nav li {
+    display: inline;
+}
+
+.user_nav .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px; /* Adjust icon size */
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.user_nav li .nav-link i:hover {
+    color: #007bff; /* Change icon color on hover */
+}
+
+.contents_container {
+    height: 83vh;
+    margin-top: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.content_card {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#card_3 {
+    margin-bottom: 0;
+}
+
+.content_image {
+    width: 50%;
+    text-align: center;
+}
+
+.content_image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content_info {
+    width: 50%;
+    padding: 10px;
+}
